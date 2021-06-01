@@ -1,4 +1,4 @@
-package jv.lee.algorithm;
+package jv.lee.algorithm.test;
 
 import java.util.HashMap;
 import java.util.Map;
