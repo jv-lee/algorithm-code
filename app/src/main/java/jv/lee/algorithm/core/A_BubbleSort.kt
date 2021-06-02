@@ -1,5 +1,9 @@
 package jv.lee.algorithm.core
 
+import jv.lee.algorithm.test.A_Test
+import jv.lee.algorithm.test.A_Test2
+import jv.lee.algorithm.test.A_Test3
+
 /**
  * @author jv.lee
  * @date 2021/6/1
@@ -13,8 +17,10 @@ object A_BubbleSort {
 
     @JvmStatic
     fun main(args: Array<String>) {
-//        println(bubbleSort(intArrayOf(7, 6, 5, 4, 3, 2, 1)).toList())
+        println(bubbleSort(intArrayOf(7, 6, 5, 4, 3, 2, 1)).toList())
         println(A_Test.bubbleSort(intArrayOf(7, 6, 5, 4, 3, 2, 1)).toList())
+        println(A_Test2.bubbleSort(intArrayOf(7, 6, 5, 4, 3, 2, 1)).toList())
+        println(A_Test3.bubbleSort(intArrayOf(7, 6, 5, 4, 3, 2, 1)).toList())
     }
 
     private fun bubbleSort(array: IntArray): IntArray {
