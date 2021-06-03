@@ -13,7 +13,7 @@ object A_Test3 {
                 if (array[j - 1] > array[j]) {
                     temp = array[j]
                     array[j] = array[j - 1]
-                    array[j - 1] = temp
+                    array[j - 1] = temp;
                 }
             }
         }

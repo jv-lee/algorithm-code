@@ -8,8 +8,8 @@ package jv.lee.algorithm.test
 object B_Test3 {
     @JvmStatic
     fun selectionSort(array: IntArray): IntArray {
-        var temp:Int
-        var min:Int
+        var temp: Int
+        var min: Int
         for (i in array.indices) {
             min = i
             for (j in (1 + i) until array.size) {
@@ -21,7 +21,6 @@ object B_Test3 {
             array[min] = array[i]
             array[i] = temp
         }
-
         return array
     }
 }
