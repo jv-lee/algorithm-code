@@ -12,7 +12,7 @@ object B_Test3 {
         var min: Int
         for (i in array.indices) {
             min = i
-            for (j in (1 + i) until array.size) {
+            for (j in 1 + i until array.size) {
                 if (array[min] > array[j]) {
                     min = j
                 }
